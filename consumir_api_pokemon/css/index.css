@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "pokemon-font";
+    src: url('../media/fonts/pokemon_solid.ttf');
+}
+
+body {
+    background-color: rgb(62, 103, 134);    
+}
+
+p{
+    font-size: 25px;
+}
+
+.boton {
+    padding: 15px;
+    width: 10vw;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    border:2px solid #3761A8;
+    border-radius: 5px;
+
+}
+
+.boton:hover{
+    background-color: rgb(195, 195, 24);
+}
+
+.pokemon_container{
+    text-align: center;
+    width: 30vw;
+    margin: auto;
+    margin-top: 150px;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 60px 30px;
+    background-color: white;
+    -webkit-box-shadow: 11px 11px 22px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 11px 22px -14px rgba(0,0,0,0.75);
+    box-shadow: 11px 11px 22px -14px rgba(0,0,0,0.75);
+}
+
+
+#nombre{
+    font-family: 'pokemon-font', Arial, sans-serif;
+    letter-spacing: 0.2em;
+}
+

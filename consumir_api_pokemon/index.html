@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Título de la pestaña-->
+    <title>API POKEMON</title>    
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="./media/favicon.ico">
+    <!--Importar CSS-->
+    <style>@import url("css/index.css");</style>
+</head>
+<body>
+    <div class="pokemon_container">
+        <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" id="logo">
+        <h1 id="nombre">Nombre Pokémon</h1>
+        <img alt="imagen_pokemon" id="img_pokemon"/>
+        <p id="numero">Numero Pokémon</p>
+        <p id="peso">Peso Pokémon</p>
+        <button class="boton" disabled onclick="anterior_pokemon()" id="btn_anterior">Anterior</button>
+        <button class="boton" onclick="siguiente_pokemon()">Siguiente</button>
+    </div>
+
+    <!--Importar Javascript-->
+    <script src="./js/index.js"></script>
+</body>
+</html>
